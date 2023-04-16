@@ -1,0 +1,31 @@
+
+.slide-right {
+	-webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2 both;
+	        animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2 both;
+}
+
+ @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+
+.MissPage {
+    background:  linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}   
+  
