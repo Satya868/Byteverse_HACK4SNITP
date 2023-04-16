@@ -61,11 +61,6 @@ const Login = () => {
         <button type="submit" className="btn btn-primary">
           LOG In
         </button>
-        <div className='mb-3 mt-1'>
-        <button type="button" style={{ backgroundColor: "white", } }onClick={()=> navigate('/forgot-password')}>
-          <span style={{color: "blue"}}>Forgot Password ?</span>
-        </button>
-        </div>
       </form>
     </div>
   )
